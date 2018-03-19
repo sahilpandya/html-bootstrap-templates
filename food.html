@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/food.css"/>
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="./js/lib/assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./js/lib/assets/owlcarousel/assets/owl.theme.default.min.css">
+</head>
+<body>
+<div class="food-page parallax">
+    <!-- Menu Start -->
+    <div class="menu-bar">
+        <nav id="food_nav_bar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="./index.html">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-md-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-items">
+                        <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Recipes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Videos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <form class="navbar-form navbar-left">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search"/>
+                            </div>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- Menu End -->
+
+    <!-- Header carousel start -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+            <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="first-slide"
+                     src="./images/banner1.jpg"
+                     alt="First slide">
+                <div class="container">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Example headline.</h1>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                            gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="second-slide"
+                     src="./images/profile/banner.jpg"
+                     alt="Second slide">
+                <div class="container">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Another example headline.</h1>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                            gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="third-slide"
+                     src="./images/banner2.jpg"
+                     alt="Third slide">
+                <div class="container">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>One more for good measure.</h1>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                            gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header carousel end -->
+
+    <!-- Blog Section start here -->
+    <div class="blog container-fluid" id="my-blog">
+        <form class="form-inline blog-filter">
+            <div class="radio">
+                <label>Most Recent &nbsp;<input type="radio" name="optradio"></label>
+            </div>
+            <div class="radio">
+                <label>Most Popular &nbsp;<input type="radio" name="optradio"></label>
+            </div>
+        </form>
+        <div class="container">
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top" src="./images/banner1.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="./images/banner1.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="./images/banner1.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This card has even longer content than the first to show that equal
+                            height
+                            action.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top" src="./images/banner1.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="./images/banner1.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="./images/banner1.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This card has even longer content than the first to show that equal
+                            height
+                            action.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="load-more-btn text-center">
+            <button type="button" class="btn btn-outline-primary">Load More</button>
+        </div>
+    </div>
+    <!-- blog section end here -->
+    <!-- Subscribe section start here -->
+    <div class="subscribe-section">
+        <div class="row container-fluid justify-content-md-center align-items-center">
+            <div class="col-md-8">
+                Food & Home Entertaining is South Africa’s leading authority in all things food! By signing up to our
+                free newsletter we’re giving you the scoop on the latest in the world of food, design and travel. Not to
+                mention you’ll be the first to know about exclusive online competitions, reader specials and bonus
+                recipes posted nowhere else but here!
+            </div>
+            <div class="col text-right">
+                <button type="button" class="btn btn-primary">Subscribe</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Subscribe section end here -->
+    <!-- footer start here -->
+    <div class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row container">
+                    <div class="col-md-2 col-sm-4 col-xs-12">
+                        <div class="title">About Us</div>
+                        <ul>
+                            <li>
+                                <a>Home</a>
+                            </li>
+                            <li>
+                                <a>How it works </a>
+                            </li>
+                            <li>
+                                <a> About Us </a>
+                            </li>
+                            <li>
+                                <a> Team </a>
+                            </li>
+                            <li>
+                                <a> Advisory </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-xs-12">
+                        <div class="title">Investors</div>
+                        <ul>
+                            <li>
+                                <a> Why invest </a>
+                            </li>
+                            <li>
+                                <a> Investors eligibility </a>
+                            </li>
+                            <li>
+                                <a>How to invest</a>
+                            </li>
+                            <li>
+                                <a> Returns & fees </a>
+                            </li>
+                            <li>
+                                <a> Investor FAQ </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-xs-12">
+                        <div class="title">Borrowers</div>
+                        <ul>
+                            <li>
+                                <a>Why Borrow </a>
+                            </li>
+                            <li>
+                                <a>Borrowers eligibility </a>
+                            </li>
+                            <li>
+                                <a>Purpose of loan</a>
+                            </li>
+                            <li>
+                                <a>Borrower FAQ </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-xs-12">
+                        <div class="title">Legal</div>
+                        <ul>
+                            <li>
+                                <a>Terms of use </a>
+                            </li>
+                            <li>
+                                <a>Privacy Policy </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-8 col-xs-12">
+                        <div class="title">Social Media</div>
+                        <ul class="list-inline social-media">
+                            <li class="list-inline-item">
+                                <a>
+                                    <img src="./images/social-media/tw.png" class="tw"/>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a>
+                                    <img src="./images/social-media/fb.png" class="fb"/>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a>
+                                    <img src="./images/social-media/in.png" class="ln"/>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a>
+                                    <img src="./images/social-media/gp.png" class="gp"/>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom container text-center">
+            <div class="row">
+                <div class="col-md-6 col-xs-12">
+                    Powered by: Logo
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    Designed by: Logo
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer end here -->
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="./js/lib/jquery.js"></script>
+<script src="./js/lib/popper.min.js"></script>
+<script src="./js/lib/bootstrap.min.js"></script>
+<script src="./js/lib/assets/owlcarousel/owl.carousel.js"></script>
+<script src="./js/lib/parallax.js"></script>
+<script src="./js/script.js"></script>
+</body>
+</html>

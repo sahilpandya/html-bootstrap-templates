@@ -1,0 +1,546 @@
+body{
+    font-family:'Lato', sans-serif;
+    font-size:14px;
+    color: #999999;
+}
+.landing-page{
+    padding:0;
+}
+.header-container{
+    background-image: url("../images/header-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width:100%;
+    padding:16% 25%;
+}
+
+.header-container .header-title{
+    color:#fff;
+    font-size: 80px;
+    padding-bottom: 20px;
+}
+.header-container .header-content {
+    text-align: center;
+}
+
+.header-container .header-content .header-button-section{
+    margin: 0 auto;
+}
+
+.header-container .header-content .header-button-section h5{
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.primary-button{
+    color: #33cc66;
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 30px;
+    padding: 15px 30px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+
+.secondary-button{
+    background-color: #33cc66;
+    color: #fff;
+    border-color: #33cc66;
+    border-radius: 30px;
+    padding: 15px 30px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.menu-bar .navbar{
+    padding: 0 35px;
+    background-color: #111111 !important;
+}
+
+.menu-bar .navbar-dark .navbar-nav .nav-link {
+    color: #777;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.menu-bar .navbar-dark .navbar-nav .active{
+    border-top: 2px solid #33cc66;
+}
+
+.menu-bar .navbar-dark .navbar-nav .active .nav-link {
+    color: #fff;
+}
+
+
+.info-section{
+    padding: 60px;
+}
+
+.info-title{
+    color: #33cc66;
+    padding-bottom: 20px;
+}
+
+.info-description{
+    color: #777;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+.info-section .primary-title{
+    color: #777777;
+}
+
+.info-section .secondary-title{
+    color: #33cc66;
+    font-size:24px;
+    padding: 5px 0;
+}
+
+.why-us-section{
+    margin:30px 0;
+    background-image: url("../images/second-section.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width:100%;
+}
+
+.why-us-section .title {
+    color: #ffffff;
+}
+
+.invest-section{
+    background-color: rgba(0,0,0,0.2);
+    margin-bottom:20px;
+    padding:20px 0;
+}
+
+.borrow-section{
+    background-color: rgba(0,0,0,0.2);
+    margin-bottom:20px;
+    padding:20px 0;
+}
+
+.why-us-section .option-card{
+    background-color: rgba(0,0,0, 0.5);
+    margin: 0px 10px;
+    padding:10px;
+}
+
+.option-card .title{
+    font-size: 14px;
+    color:#33cc66;
+    padding:10px 0;
+}
+
+.option-card .description{
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.why-us-section .section.row{
+    margin: 20px 10px;
+    justify-content:space-around;
+    flex-wrap: nowrap;
+}
+
+.option-card .icon img{
+    width:50px;
+    height:50px;
+}
+
+.invest-how .title{
+    text-align: center;
+    color: #33cc66;
+    padding:20px 0;
+    font-size:24px;
+}
+
+.invest-steps{
+    background-color: #33cc66;
+    padding: 20px;
+}
+
+.invest-steps .title{
+    color: #fff;
+}
+
+.invest-steps h2.title{
+    padding: 50px 0;
+    font-weight: bold;
+}
+
+.invest-steps .step .title{
+    font-size: 20px;
+}
+.invest-steps .step .description{
+    color: #000;
+    font-size:20px;
+    padding: 20px;
+}
+
+.invest-steps .step.odd-step{
+    background-color: #99cc99;
+}
+
+.invest-steps .step{
+    padding: 30px;
+}
+.invest-steps .row{
+    align-items: center;
+    justify-content: center;
+}
+
+.impact-section{
+    margin:30px 0;
+    background-image: url('../images/Parralax-image.jpg');
+    padding: 20px;
+}
+
+.impact-section .profile-pic{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+}
+
+.impact-section .title{
+    text-align: center;
+    color: #33cc66;
+    padding:20px 0;
+    font-size:24px;
+}
+
+.impact-section .profile-name{
+    font-size: 14px;
+    font-weight:bold;
+    color: #777777;
+}
+
+.impact-section .description{
+    font-size: 14px;
+    color: #777777;
+}
+
+.impact-section .terms{
+    margin: 20px 0;
+    font-size: 12px;
+    color: #777777;
+}
+
+.featured-slider-section {
+    margin:30px 0;
+}
+
+.featured-slider-section .title{
+    text-align: center;
+    color: #33cc66;
+    padding:20px 0;
+    font-size:24px;
+}
+.featured-card {
+    margin: 0 20px;
+    padding: 0 0px;
+}
+
+.featured-card .card-image{
+    width:50px;
+    height:200px;
+}
+
+.featured-card .card-title{
+    font-size: 14px;
+    margin:10px 0;
+    color: #777777;
+}
+
+.featured-card .detail{
+    font-size: 12px;
+    color: #33cc66;
+}
+
+.footer{
+
+}
+
+.footer .footer-top{
+    background-color: #000000;
+    padding: 40px;
+}
+
+.footer .footer-top .title{
+    color: #ffffff;
+    maring: 10px 0;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.footer .footer-top ul{
+    padding-left:10px;
+}
+.footer .footer-top ul li a {
+    color: #777777;
+    font-size: 12px;
+}
+.footer .footer-bottom{
+    padding:20px 0;
+    color: #777777;
+}
+
+.footer .footer-top .social-media img{
+    width:15px;
+    height: 15px;
+}
+
+/* lender page css */
+
+.lender-header-container{
+    background-image: url("../images/lender/340.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width:100%;
+    padding:20% 10%;
+}
+
+.header-container .inner-container{
+  padding:20px;
+}
+
+.header-container .form{
+  background: rgba(0,0,0,0.4);
+}
+
+.description{
+  color: #000;
+}
+
+.description p {
+  margin-top:50px;
+  font-size: 16px;
+}
+.why-section{
+  padding:60px 0;
+}
+.why-section img{
+  width:70px;
+  height:70px;
+}
+
+.why-section .primary-title{
+  color: #000;
+  font-size:20px;
+  margin-top:50px;
+}
+
+.why-section .secondary-title{
+  color: #999999;
+  font-size:14px;
+}
+
+.bottom-divider{
+  border-top: 5px solid;
+  padding:0;
+}
+
+.questions{
+  padding:60px 0;
+}
+
+/*tabs css*/
+.tabs-left{
+  border-bottom: none;
+  padding-top: 2px;
+}
+.tabs-left {
+  border-right: 2px solid #ddd;
+}
+.tabs-left>li, .tabs-right>li {
+  float: none;
+  margin-bottom: 2px;
+}
+.tabs-left>li {
+  margin-right: -1px;
+  background: #fafafa;
+  margin-bottom: 0;
+}
+.tabs-left>li.active{
+  background: #fff;
+}
+.tabs-left>li.active>a,
+.tabs-left>li.active>a:hover,
+.tabs-left>li.active>a:focus {
+  border-top-color: #33cc66 !important;
+  border-top: 5px solid;
+  text-decoration: none;
+  outline: 0;
+  color: #000;
+}
+.tabs-left>li>a {
+  border-radius: 4px 0 0 4px;
+  margin-right: 0;
+  display:block;
+  text-decoration: none;
+  outline: 0;
+}
+
+.tabs-left li a {
+  border-bottom-color: #ddd !important;
+  border-bottom: 1px solid;
+  padding:10px;
+  color: #999999;
+  font-size: 18px;
+}
+
+.tabs-left li:last-child a{
+  border-bottom:none;
+}
+
+.question-tabs{
+  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+.question-tabs .left-menu-panel{
+  padding:0
+}
+
+.question-tabs .nav-tabs{
+  list-style:none;
+  margin-bottom:0;
+  padding:0
+}
+.tabs-left li:last-child{
+  margin-bottom:0;
+}
+
+.tab-content{
+      padding: 20px;
+}
+
+.btn.btn-primary.register-btn{
+  border-color: #33cc66;
+  background-color: #33cc66;
+  border-radius: 18px;
+  padding: 10px 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.header-container .form-control{
+  border-radius: 18px;
+  padding: 10px 20px;
+}
+.header-container .form-control::placeholder {
+    color: #33cc66;
+}
+
+/*Borrower page css*/
+
+.borrower-header-container{
+    background-image: url("../images/borrower/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width:100%;
+    padding:20% 10%;
+}
+
+
+/** CA Product section css */
+.ca-product{
+  padding:60px 0;
+}
+
+.ca-product .cards .ca-card{
+  padding: 20px;
+}
+
+.ca-product .cards .ca-card .inner-card{
+  border: 1px solid #000;
+  padding:20px;
+}
+
+.ca-product .cards .ca-card .primary-title{
+  color: #33cc66;
+  font-size:24px;
+  padding-top:20px;
+}
+
+.ca-product .cards .ca-card img{
+  width:70px;
+  height: 70px;
+}
+
+
+/** About us page */
+
+.profile-header-container{
+    background-image: url("../images/profile/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width:100%;
+    padding:20% 10%;
+}
+
+.profile-header-container h4{
+  color: #000;
+  background-color: #fff;
+    margin-top:15%;
+}
+
+.team-section{
+    padding:60px 0;
+}
+
+.team-section img{
+  width:300px;
+  height:300px;
+  border-radius: 50%;
+}
+
+.team-section .primary-title{
+  color: #000;
+  font-size:16px;
+  margin-top:20px;
+}
+
+.team-section .secondary-title{
+  color: #999999;
+  font-size:12px;
+}
+
+.media-coverage {
+    padding: 60px 0;
+}
+
+.media-coverage img{
+  width:200px;
+  height:60px;
+  background: #fff;
+  border: 1px solid #fafafa;
+}
+
+.reach-us{
+  padding: 60px 0;
+}
+
+.reach-us .map-section h5.company-name{
+  color: #000;
+}
+
+.contact-section .btn{
+  background-color: #33cc66;
+  color: #fff;
+}
+
+#map {
+ height: 300px;
+ width: 100%;
+}
+
+.google-map{
+  border: 1px solid #ccc;
+  padding: 10px;
+}
